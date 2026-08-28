@@ -1,4 +1,4 @@
-"""Reference implementation of the espresso reconstruction.
+"""Minimal public reference implementation of the espresso reconstruction.
 
 Usage: python reconstruct.py shot.csv --tds 8.57 --out fit.json
 The CSV needs elapsed, pressure, flow_out, current_total_shot_weight.
