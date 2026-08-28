@@ -56,6 +56,6 @@ supplied separately by the user under the applicable data terms.
 The endpoint script reproduces the cohort counts (17 pairs, 19 unique shots,
 7 strict pairs) directly from the July-2026 manifest. With the raw-telemetry
 validity rule documented in `endpoint_matching.py`, the recomputed median RMS
-distances are 3.606 bar (pressure), 1.104 g s^-1 (outlet flow), and 4.287
-bar s g^-1 (apparent resistance); values in the manuscript are rounded or may
+distances are 3.606 bar (pressure), 1.104 g/s (outlet flow), and 4.287
+bar s/g (apparent resistance); values in the manuscript are rounded or may
 reflect the archived production distance export.
