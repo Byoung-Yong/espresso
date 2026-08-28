@@ -15,5 +15,5 @@ Required columns are `elapsed`, `pressure`, `flow_out`, and
 are used for every shot. If `--tds` is provided, the endpoint-TDS residual is
 included; otherwise it is omitted. No second model or second code path is
 distributed. The fit uses differential evolution (seed 42, 60 iterations,
-population 15) followed by L-BFGS-B. TDS and EY are reconstructed outputs; EY
-is never a fitting target.
+population 15) followed by L-BFGS-B. TDS and EY are reconstructed outputs.
+
