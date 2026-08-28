@@ -1,7 +1,7 @@
 """Fit every row in a manifest using reconstruct.py."""
 import argparse
 import pandas as pd
-from reconstruct import fit, NAMES
+from reconstruct import fit
 def main():
     ap=argparse.ArgumentParser(); ap.add_argument("manifest_csv"); ap.add_argument("output_csv"); a=ap.parse_args(); m=pd.read_csv(a.manifest_csv)
     if "csv_path" not in m: raise ValueError("manifest needs csv_path")
